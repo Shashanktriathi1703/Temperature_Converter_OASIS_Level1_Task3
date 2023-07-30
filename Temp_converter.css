@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(desert.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.display{
+    font-family: sans-serif;
+    max-width: 900px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: -2.4px -1.8px 13px 2px,2.4px 1.8px 13px 2px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+.Temperature-icon{
+    font-size: 45px;
+    color: white;
+}
+h1{
+    color:white;
+    letter-spacing: 1.2px;
+    font-size: 31px;
+}
+.celsius, .fahrenheit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+input{
+    flex:5;
+    height: 60px;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    outline:none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0px 10px;
+}
+.Celsius-icon, .Fahrenheit-icon{
+    flex: 1;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #F29727;
+    color: white;
+}
+.button{
+    margin-top:30px;
+    text-align: center;
+}
+.button button{
+    border:none;
+    outline:none;
+    padding:10px 30px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button button:hover{
+    background-color:black;
+    color: white;
+}
